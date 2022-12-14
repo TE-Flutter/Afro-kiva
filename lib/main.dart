@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
       ),
-      home: SplashScreen(),
+      // home: SplashScreen(),
       //NavBarDefault(),
       //initialRoute: AppPages.nav,
       getPages: AppPages.routes,
