@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:hotel_app/models/app_routes.dart';
+import 'package:hotel_app/pages/navbar.dart';
+import 'package:hotel_app/screens/login_screen.dart';
 
 import 'firebase_controller.dart';
 
@@ -23,9 +25,9 @@ class AuthController extends GetxController {
 
   _setInitialScreen(User? user) {
     if (user == null) {
-      Get.offAll(() => AppPages.login);
+      Get.to(() => LoginPage());
     } else {
-      Get.offAll(() => AppPages.nav);
+      Get.to(() => const NavBarDefault());
     }
   }
 

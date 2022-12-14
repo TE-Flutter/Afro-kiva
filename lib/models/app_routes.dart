@@ -9,7 +9,6 @@ import '../screens/homepages/saved_bookings.dart';
 import '../screens/homepages/search_page.dart';
 import '../screens/login_screen.dart';
 
-
 class AppPages {
   static List<GetPage> routes = [
     GetPage(name: nav, page: () => const NavBarDefault()),
@@ -18,7 +17,7 @@ class AppPages {
     GetPage(name: home, page: () => const HomePage()),
     GetPage(name: favorite, page: () => const FavoritePage()),
     GetPage(name: savedforlater, page: () => const SavedForLater()),
-    GetPage(name: login, page: () =>  LoginPage()),
+    GetPage(name: login, page: () => LoginPage()),
     GetPage(name: details, page: () => const DetailsScreen()),
   ];
 
