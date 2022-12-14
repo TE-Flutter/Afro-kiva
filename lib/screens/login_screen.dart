@@ -130,31 +130,18 @@ class LoginPage extends StatelessWidget {
               ),
 
               const SizedBox(height: 25),
-              const Center(
-                child: Text(
-                  '-OR-',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black,
-                  ),
-                ),
-              ),
+              // const Center(
+              //   child: Text(
+              //     '-OR-',
+              //     style: TextStyle(
+              //       fontWeight: FontWeight.bold,
+              //       color: Colors.black,
+              //     ),
+              //   ),
+              // ),
 
               const SizedBox(height: 30),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 1),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Image.asset('lib/images/logos/facebook.png',
-                        width: 50, height: 50),
-                    Image.asset('lib/images/logos/google-plus.png',
-                        width: 50, height: 50),
-                    Image.asset("lib/images/logos/twitter.png",
-                        width: 50, height: 50),
-                  ],
-                ),
-              ),
+              // // ),
               //SizedBox
               const SizedBox(height: 40),
               Row(
